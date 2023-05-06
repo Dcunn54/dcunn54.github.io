@@ -9,7 +9,7 @@
 		<title>Daniel Cunningham</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css?" />
 		<noscript><link rel="stylesheet" type="text/css" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -41,20 +41,51 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Intro
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p></p>
-							</article>
-						-->
-
 						<!-- Work -->
 							<article id="projects">
 								<h2 class="major">Projects</h2>
 
-								<span class="image main"><img src="images/EndlessRunner.jpg" alt="" /></span>
+								<h3>Airbnb Seattle Data Visualization</h3>
+								<span class="image main"><img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ai&#47;AirBnBProject_16813376931590&#47;Dashboard1&#47;1.png" alt="" /></span>
+								<p>Data visualization of Seattle Airbnb prices and locations. Shows average prices, prices by zipcode and number of rooms, and total revenue per time of year in order to inform a potential client who might be interested
+									in purchasing property for an Airbnb listing.
+								</p>
+								<a href="https://public.tableau.com/views/AirBnBProject_16813376931590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Interactive Dashboard</a>
+								<hr class="solid">
+
+								<h3>Magic: The Gathering Modern Data Visualization</h3>
+								<span class="image main"><img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;MT&#47;MTGModernMetagame&#47;Dashboard1&#47;1.png" alt="" /></span>
+								<p>Data visualization of the meta game for Modern MTG for the month of April 2023. I used a Python script with selenium to scrape the data from "mtggoldfish.com",
+									and Microsoft Excel to clean the data and prepare it for Tableau.
+								</p>
+								<a href="https://public.tableau.com/views/MTGModernMetagame/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Interactive Dashboard</a><br><br>
+								<a href="https://github.com/Dcunn54/MTG_Data_Scrape/blob/main/main.py" target="_blank" class="icon brands fa-github" style="font-size:xx-large">
+									<span class="label">GitHub</span></a>
+								<hr class="solid">
+
+								<h3>Contact Tracing Capstone</h3>
+								<span class="image main"><img src="images/ContactTracePlot.jpg" alt="" /></span>
+								<p>Software designed for tracing contact between employees in the case that an employee tests positive for Covid-19. The program takes a JSON file 
+									with employee names and locations throughout the day and uses a clustering machine learning algorithm to determine which employees were within 
+									6 feet of each other within 1 hour. The application can also show scatterplots of different time and location data.
+								</p>
+								<a href="https://github.com/Dcunn54/ContactTracing" target="_blank" class="icon brands fa-github" style="font-size:xx-large">
+									<span class="label">GitHub</span></a>
+								<hr class="solid">
+
+								<h3>Scheduling Management Project</h3>
+								<span class="image main"><img src="images/AppProjectMain.jpg" alt="" /></span>
+								<p>Appointment Management system designed to help an organization keep track of different types of appointments and meetings. Has the functionality
+									to add new appointments, modify existing appointments, and keep track of logins. Also had the functionality to adjust to different timezones
+									 depending on the user machine. At the time of completion the project was connected to a database which stored all data related to appointments, 
+									 customers, logins, reports, etc. MySQL was used for the database management.
+								</p>
+								<a href="https://github.com/Dcunn54/SchedulingManagement" target="_blank" class="icon brands fa-github" style="font-size:xx-large">
+									<span class="label">GitHub</span></a>
+								<hr class="solid">
+
 								<h3>Endless Runner Game</h3>
+								<span class="image main"><img src="images/EndlessRunner.jpg" alt="" /></span>
 								<p>Endless Runner game made in Unity2D with C# scripting in Visual Studio. Made in collaboration with friends, with all the programming 
 									done by me. Art by <a href="https://www.instagram.com/chairshulsizer/?hl=en" target="_blank">@chairshulsizer</a>.
 								</p>
@@ -62,48 +93,6 @@
 									<a href="https://dcunn54.github.io/EndlessRunner/" target="_blank">Give it a try!</a>
 								</p>
 								<a href="https://github.com/Dcunn54/EndlessRunner" target="_blank" class="icon brands fa-github" style="font-size:xx-large">
-									<span class="label">GitHub</span></a>
-								<hr class="solid">
-
-								<span class="image main"><img src="images/ContactTraceMain.jpg" alt="" /></span>
-								<h3>Contact Tracing Capstone</h3>
-								<p>Software designed for tracing contact between employees in the case that an employee tests positive for Covid-19. The program takes a JSON file 
-									with employee names and locations throughout the day and uses a clustering machine learning algorithm to determine which employees were within 
-									6 feet of each other within 1 hour. The application can also show scatterplots of different time and location data.
-								</p>
-								<span class="image main"><img src="images/ContactTracePlot.jpg" alt="" /></span>
-								<a href="https://github.com/Dcunn54/ContactTracing" target="_blank" class="icon brands fa-github" style="font-size:xx-large">
-									<span class="label">GitHub</span></a>
-								<hr class="solid">
-
-
-								<span class="image main"><img src="images/InvProjectMain.jpg" alt="" /></span>
-								<h3>Inventory Management Project</h3>
-								<p>Inventory management system designed for use in an organization with an inventory of parts and products. Has the functionality
-									to add "parts" (either in-house or outsourced), and "products" comprised of one or more parts. Also has the functionality to modify
-									existing parts and products.`	 
-								</p>
-								<div class="row">
-									<div class="column">
-										<span class="image main"><img src="images/InvProjectAddPart.jpg" alt="" /></span>
-									</div>
-									<div class="column">
-										<span class="image main"><img src="images/InvProjectModProd.jpg" alt="" /></span>
-									</div>
-								</div>
-								<a href="https://github.com/Dcunn54/InvManageProject" target="_blank" class="icon brands fa-github" style="font-size:xx-large">
-									<span class="label">GitHub</span></a>
-								<hr class="solid">
-
-								<span class="image main"><img src="images/AppProjectMain.jpg" alt="" /></span>
-								<h3>Scheduling Management Project</h3>
-								<p>Appointment Management system designed to help an organization keep track of different types of appointments and meetings. Has the functionality
-									to add new appointments, modify existing appointments, and keep track of logins. Also had the functionality to adjust to different timezones
-									 depending on the user machine. At the time of completion the project was connected to a database which stored all data related to appointments, 
-									 customers, logins, reports, etc. MySQL was used for the database management.
-								</p>
-								<span class="image main"><img src="images/AppProjectAdd.jpg" alt="" /></span>
-								<a href="https://github.com/Dcunn54/SchedulingManagement" target="_blank" class="icon brands fa-github" style="font-size:xx-large">
 									<span class="label">GitHub</span></a>
 							</article>
 
@@ -119,10 +108,9 @@
 								<ul class="icons">
 									<li><a class="icon brands fa-java" style="font-size:x-large"></a></li>
 									<li><a class="icon brands fa-python" style="font-size:x-large"></a></li>
-									<li><a class="icon brands fa-html5" style="font-size:x-large"></a></li>
-									<li><a class="icon brands fa-js" style="font-size:x-large"></a></li>
 									<li><a class="icon brands fa-unity" style="font-size:x-large"></a></li>
 									<li><a class="icon brands fa-git" style="font-size:x-large"></a></li>
+									<li><a class="icon solid fa-database" style="font-size:x-large"></a></li>
 								</ul>
 								<span class="image main"><img src="images/AlexAndMe.jpg" alt="" /></span>
 								<p>In my free time I enjoy spending time with my partner, taking my dog to the dog park, hiking / exploring Seattle parks, 
@@ -156,7 +144,7 @@
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="www.linkedin.com/in/dcunn54" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://www.linkedin.com/in/dcunn54" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/Dcunn54" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
@@ -179,6 +167,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
 
 	</body>
 </html>
